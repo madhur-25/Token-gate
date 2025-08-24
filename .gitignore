@@ -1,0 +1,16 @@
+# Ignore the entire build directory
+build/
+
+# Ignore compiled executables
+*.exe
+main
+run_tests
+
+# Ignore editor and environment files
+.ccls-cache/
+.vscode/
+.replit
+
+# Ignore downloaded dependency archives
+*.tar.gz
+*.zip
